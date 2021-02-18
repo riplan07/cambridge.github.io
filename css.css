@@ -116,7 +116,7 @@ span
 .header-content ul li
  {
      display:inline-block;
-     margin-right: 25px;
+     margin-right: 22px;
  } 
 .header-content ul li a
  {
@@ -143,6 +143,10 @@ span
      background-attachment: fixed;
      
  }
+ .header-content .menu-icon 
+ {
+    display: none;
+}
 
 /* .................section............ */
 /* ..................banner........... */
@@ -276,6 +280,7 @@ background: white;
 .vacation
 {
     position:relative;
+    width:25%;
 }
 /* ............our institute-------- */
 .institute
@@ -484,3 +489,91 @@ footer
     border: 1px solid #1e2027;
     padding: 5px;
 }
+/* @media screen and (max-width: 1150px) {
+    .header-content
+    {
+      display:block;
+      width: 100%;
+      
+    }
+    .header-content ul li
+    {
+        display:block;
+    }
+    .home
+    {
+        padding:10px;
+        background-repeat: no-repeat;
+
+    }
+}
+@media screen and (max-width: 1200px) 
+{ 
+    .education-content
+    {
+        display:block;
+    }
+    .education-leftcol
+    {
+     width:100%;
+    }
+   .education-rightcol
+    {
+     width:100%
+    }
+}
+/* @media screen and (max-width: 1350px) 
+{
+    .main-bar
+    {
+        display:block;
+    }
+    .vacation
+    {
+        width:50%
+    }
+} */
+/* @media screen and (max-width: 800px)   
+{
+    .institute-main
+    {
+        display:block;
+    }
+} */ 
+@media screen and (max-width: 1200px) 
+{
+    .header-content ul li a 
+    {
+        display: none;
+    }
+    .header-content ul li  a.menu-icon 
+    {
+      /* float: right; */
+      display: block;
+    }
+    .home
+    {
+        background-color:#0c4270;
+    }
+  }
+  @media screen and (max-width: 1200px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive a.main-bar {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .header-content ul li
+    {
+        display:block;
+    }
+    .home
+    {
+       padding:5px 0 2px 0; 
+    }
+  }
